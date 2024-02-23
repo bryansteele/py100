@@ -1,7 +1,0 @@
-import sys
-
-print(sys.float_info.dig)
-
-print(sys.float_info.max)
-
-print(sys.float_info.min)
