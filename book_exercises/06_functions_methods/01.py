@@ -1,8 +1,9 @@
-a = 13
-b = a
-print(a)
-print(b)
+def set_foo():
+    foo = 'bar'
 
-a = 3
-print(a)
-print (b)
+set_foo()
+print(foo)
+
+
+# an error is raised becasue foo is not accessable from outside the function
+# as foo was created inside the function.
