@@ -7,5 +7,5 @@ print(stuff)
 
 
 
-# Tuples are njot mutable. So, at best we can create a new tuple and reassign
+# Tuples are not mutable. So, at best we can create a new tuple and reassign
 # 'bye' with 'goodbye'
