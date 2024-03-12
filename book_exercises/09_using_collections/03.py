@@ -1,0 +1,5 @@
+orig = (1, 2, 3, 4, 5)          # New tuple (4, 3, 2)
+my_list = list(orig)
+my_list.reverse()
+new = tuple(my_list[1:4])
+print(new)
