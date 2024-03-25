@@ -1,0 +1,3 @@
+print('foo' == 'Foo')
+
+# False
