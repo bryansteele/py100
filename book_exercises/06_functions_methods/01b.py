@@ -1,7 +1,10 @@
-greeting = 'Salutations'
+def set_foo():
+    foo = 'bar'
 
-def well_howdy(who):
-    print(f'{greeting}, {who}')
+set_foo()
+print(foo)
 
-well_howdy('Angie')
-print(greeting)
+"""
+Try to print foo to the terminal but becasue foo is initialized inside the
+function block, print() can not access it. So, a NameError is raised.
+"""
