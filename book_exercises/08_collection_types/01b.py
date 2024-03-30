@@ -1,0 +1,1 @@
+# len(people) will give you the number of indexes
